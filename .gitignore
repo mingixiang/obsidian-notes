@@ -1,0 +1,21 @@
+# ── Obsidian ──
+# 工作区布局：每次开关面板/切文件都变，且记录本机窗口与打开的文件，
+# 纳入版本管理只会产生无意义的大量提交。
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+# 插件配置可能存放 API Key，默认不纳入版本管理
+.obsidian/plugins/*/data.json
+# 例外：Obsidian Git 自身的设置（同步间隔、远程地址等）值得跟随仓库
+!.obsidian/plugins/obsidian-git/data.json
+
+# 回收站
+.trash/
+
+# ── 系统文件 ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 同步冲突残留
+*.sync-conflict-*
